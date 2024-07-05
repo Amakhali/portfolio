@@ -91,7 +91,7 @@ a {
   .index-banner {
     width: 100%;
     height:calc(100vh - 110px);
-    background-image: url(https://res-console.cloudinary.com/mailop-technology/media_explorer_thumbnails/15c5af28c524d2111950c8954bb8f1ed/detailed);
+    background-image:(https://asset.cloudinary.com/mailop-technology/296a29e4801f0eeaee97e10adb63b85b)
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
