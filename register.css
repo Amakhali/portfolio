@@ -1,0 +1,161 @@
+body .container .wrapper {
+    background-color: bisque;
+    width: 400px;
+   /* margin: 0 auto;*/
+    padding: 100px 50px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,3%);
+    position: absolute;
+    border-radius: 20px;
+}
+
+body .container .wrapper .head {
+    position: absolute;
+    margin-left: 60px;
+    font-size: x-large;
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    bottom: -100%;
+
+    animation:register 0.5s linear 0.5s forwards;
+}
+
+body .container .wrapper input {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: medium;
+
+    
+}
+
+body .container .wrapper .inm {
+    margin-bottom: 100px ;
+}
+
+body .container .wrapper .name1 {
+    position: absolute;
+    outline: none;
+    border: none;
+    padding: 10px 5px;
+    color: aqua;
+    margin-bottom: 100px ;
+    
+    
+
+    left: -105%;
+
+    animation: input 0.5s linear 1s forwards;
+}
+
+body .container .wrapper .name2 {
+    position: absolute;
+    outline: none;
+    border: none;
+    padding: 10px 5px;
+    color: aqua;
+    margin-bottom: 200px ;
+    margin-top: 50px;
+
+    left: -105%;
+
+    animation: input 0.5s linear 1s forwards;
+}
+
+body .container .wrapper .name3 {
+    position: absolute;
+    outline: none;
+    border: none;
+    padding: 10px 5px;
+    color: aqua;
+    margin-bottom: 100px ;
+    margin-top: 80px;
+
+    left: -105%;
+
+    animation: input 0.5s linear 1s forwards;
+}
+
+body .container .wrapper .pass {
+    margin-top: 20px ;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    align-items: center;
+}
+
+body .container .wrapper .password1 {
+    position: absolute;
+    outline: none;
+    border: none;
+    padding: 10px 5px;
+    color: blueviolet;
+    margin-bottom: 20px ;
+
+    right: -170%;
+
+    animation: codes 0.5s linear 1.5s forwards;
+}
+
+body .container .wrapper .password2 {
+    position: absolute;
+    outline: none;
+    border: none;
+    padding: 10px 5px;
+    color: blueviolet;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+    right: -170%;
+
+    animation: codes 0.5s linear 1.5s forwards;
+}
+
+body .container .wrapper .country {
+    outline: none;
+    border: none;
+    padding: 10px 5px;
+}
+
+body .container .wrapper .lg {
+    margin-right: 20px;
+    margin: 80px 210px 50px 0;
+    
+}
+
+body .container .wrapper .register {
+    position: absolute;
+    background-color: rgb(135, 135, 212);
+    border: none;
+    border-radius: 5px;
+    color: rgb(82, 239, 245);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 80px;
+    
+
+    top: -100%;
+
+    animation: login 0.5s linear 2s forwards;
+}
+
+@keyframes register {
+    from { bottom: -100%;}
+    to {bottom: 88%;}
+}
+
+@keyframes input {
+  from { left: -105%;}  
+  to { left: 28%;}
+}
+
+@keyframes codes {
+    from { right: -170%;}
+    to { right: 28%;}
+}
+
+@keyframes login {
+    from { top : -100%;}
+    to { top:70%}
+}

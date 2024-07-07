@@ -1,0 +1,77 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body{
+    background-color: rgb(222, 229, 236);
+    width: 100vw;
+ }
+ 
+ body .container .navbar .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+ }
+ 
+ 
+ 
+ body .container .navbar .nav ul {
+    display: flex;
+    margin-left: 100px;
+    justify-content:space-between;
+    padding: 50px 30px 5px 30px;
+    list-style-type: none;
+ }
+ 
+ body .container .navbar .nav ul li {
+    margin: 10px 30px 10px 30px;
+ }
+ 
+ body .container .navbar .nav ul li> a {
+    text-decoration: none;
+ }
+ 
+ #fancy{
+    width: 40%;
+    float: left;
+    margin-left: 70px;
+ }
+ 
+ .carding {
+    float: left;
+ }
+ .book-card {
+    background-color: rgb(243, 244, 244);
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+ }
+ .myonline-card {
+    background-color: rgb(243, 244, 244);
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+ }
+ .podcast-card{
+    background-color: rgb(243, 244, 244);
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+ }
+ 
+ .emalt {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    padding: 5px;
+ }
+ 
+ #bty {
+    margin-left:20px ;
+    padding: 5px;
+    width: 100%;
+ }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <form action="#">
+                <div class="head">
+                    <p>REGISTRATION PAGE</p>
+                </div>
+                <div class="inm"><input type="text" placeholder="First name" class="name1"><br>
+                    <input type="text" placeholder="Last name" class="name2"><br>
+                    <input type="text" placeholder="Other name" class="name3"><br>
+                </div>
+                <div class="pass">
+                    <input type="password" placeholder="Password" maxlength="10" class="password1"><br>
+                <input type="password" placeholder="Confirm Password" maxlength="10" class="password2"><br>
+                </div>
+                
+                SEX:
+                <input type="radio" name="sex" value="male" class="sex">Male 
+                <input type="radio" name="sex" value="female" class="sex">Female
+                <div>
+                    <input name="Country" list="Countries" placeholder="Country of residence" class="country">
+                    <datalist id="Countries">
+                        <option value="Afganistan">
+                        <option value="Malaysia">
+                        <option value="Iran">
+                        <option value="Australia">
+                        <option value="Morocco">
+                        <option value="Nigeria">
+                        <option value="United States of America">    
+                </div>
+                <div class="lg"><input type="button" value="Register" class="register"></div>
+                                
+            </form>
+            <div class="req">
+                <p> Already have an account? <a href="login.html">login</a></p>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
